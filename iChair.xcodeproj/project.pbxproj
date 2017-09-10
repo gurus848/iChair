@@ -17,6 +17,31 @@
 		CA1BE63216346DBA003AA829 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1BE61216346DB9003AA829 /* Cocoa.framework */; };
 		CA1BE63A16346DBA003AA829 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA1BE63816346DBA003AA829 /* InfoPlist.strings */; };
 		CA1BE63D16346DBA003AA829 /* iChairTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1BE63C16346DBA003AA829 /* iChairTests.m */; };
+		CA1BE64816346DEA003AA829 /* ICMenuLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1BE64716346DEA003AA829 /* ICMenuLoader.m */; };
+		CA1BE64B16346E0C003AA829 /* chair-alt.png in Resources */ = {isa = PBXBuildFile; fileRef = CA1BE64916346E0C003AA829 /* chair-alt.png */; };
+		CA1BE64C16346E0C003AA829 /* chair.png in Resources */ = {isa = PBXBuildFile; fileRef = CA1BE64A16346E0C003AA829 /* chair.png */; };
+		CA1BE64F16349192003AA829 /* ICBluetoothConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1BE64E16349192003AA829 /* ICBluetoothConnector.m */; };
+		CA1BE655163492C2003AA829 /* ORSSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1BE652163492C2003AA829 /* ORSSerialPort.m */; };
+		CA1BE656163492C2003AA829 /* ORSSerialPortManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1BE654163492C2003AA829 /* ORSSerialPortManager.m */; };
+		CA1BE65816349342003AA829 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1BE65716349342003AA829 /* IOKit.framework */; };
+		CA1BE65A1634E49D003AA829 /* Log.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA1BE6591634E49D003AA829 /* Log.xib */; };
+		CA1BE65D16360854003AA829 /* ICMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1BE65C16360854003AA829 /* ICMonitor.m */; };
+		CA4D59A5163CB092006E686E /* Alert63.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA4D59A4163CB092006E686E /* Alert63.xib */; };
+		CA4D59A9163CCCF4006E686E /* Alert64.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA4D59A8163CCCF4006E686E /* Alert64.xib */; };
+		CA4D59AC163CCEB3006E686E /* ConnectionFailed.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA4D59AB163CCEB3006E686E /* ConnectionFailed.xib */; };
+		CA4D59AE163CCEE9006E686E /* ConnectionSuccessful.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA4D59AD163CCEE9006E686E /* ConnectionSuccessful.xib */; };
+		CA4D59B0163CD11A006E686E /* Alert65.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA4D59AF163CD11A006E686E /* Alert65.xib */; };
+		CA4D59B2163CD299006E686E /* Alert70.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA4D59B1163CD299006E686E /* Alert70.xib */; };
+		CA4D59B4163CD371006E686E /* Alert71.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA4D59B3163CD371006E686E /* Alert71.xib */; };
+		CA4D59B6163CD40A006E686E /* Alert72.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA4D59B5163CD40A006E686E /* Alert72.xib */; };
+		CA4D59B8163CD498006E686E /* Alert73.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA4D59B7163CD498006E686E /* Alert73.xib */; };
+		CA4D59BA163CD50D006E686E /* Alert74.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA4D59B9163CD50D006E686E /* Alert74.xib */; };
+		CA4D59BC163CD596006E686E /* Alert75.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA4D59BB163CD596006E686E /* Alert75.xib */; };
+		CA4D59BE163CD617006E686E /* Alert76.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA4D59BD163CD617006E686E /* Alert76.xib */; };
+		CA4D59C0163CD6B2006E686E /* Alert77.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA4D59BF163CD6B1006E686E /* Alert77.xib */; };
+		CA4D59C2163CD733006E686E /* Alert78.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA4D59C1163CD733006E686E /* Alert78.xib */; };
+		CA4D59C4163CD958006E686E /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA4D59C3163CD958006E686E /* Preferences.xib */; };
+		CA4D59CB163DE9ED006E686E /* ICPreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4D59CA163DE9ED006E686E /* ICPreferencesController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +74,37 @@
 		CA1BE63916346DBA003AA829 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CA1BE63B16346DBA003AA829 /* iChairTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iChairTests.h; sourceTree = "<group>"; };
 		CA1BE63C16346DBA003AA829 /* iChairTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iChairTests.m; sourceTree = "<group>"; };
+		CA1BE64616346DEA003AA829 /* ICMenuLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ICMenuLoader.h; path = ../ICMenuLoader.h; sourceTree = "<group>"; };
+		CA1BE64716346DEA003AA829 /* ICMenuLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ICMenuLoader.m; path = ../ICMenuLoader.m; sourceTree = "<group>"; };
+		CA1BE64916346E0C003AA829 /* chair-alt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chair-alt.png"; sourceTree = "<group>"; };
+		CA1BE64A16346E0C003AA829 /* chair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chair.png; sourceTree = "<group>"; };
+		CA1BE64D16349192003AA829 /* ICBluetoothConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICBluetoothConnector.h; sourceTree = "<group>"; };
+		CA1BE64E16349192003AA829 /* ICBluetoothConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICBluetoothConnector.m; sourceTree = "<group>"; };
+		CA1BE651163492C2003AA829 /* ORSSerialPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPort.h; sourceTree = "<group>"; };
+		CA1BE652163492C2003AA829 /* ORSSerialPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPort.m; sourceTree = "<group>"; };
+		CA1BE653163492C2003AA829 /* ORSSerialPortManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPortManager.h; sourceTree = "<group>"; };
+		CA1BE654163492C2003AA829 /* ORSSerialPortManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPortManager.m; sourceTree = "<group>"; };
+		CA1BE65716349342003AA829 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		CA1BE6591634E49D003AA829 /* Log.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Log.xib; sourceTree = "<group>"; };
+		CA1BE65B16360854003AA829 /* ICMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICMonitor.h; sourceTree = "<group>"; };
+		CA1BE65C16360854003AA829 /* ICMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICMonitor.m; sourceTree = "<group>"; };
+		CA4D59A4163CB092006E686E /* Alert63.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Alert63.xib; sourceTree = "<group>"; };
+		CA4D59A8163CCCF4006E686E /* Alert64.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Alert64.xib; sourceTree = "<group>"; };
+		CA4D59AB163CCEB3006E686E /* ConnectionFailed.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConnectionFailed.xib; sourceTree = "<group>"; };
+		CA4D59AD163CCEE9006E686E /* ConnectionSuccessful.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConnectionSuccessful.xib; sourceTree = "<group>"; };
+		CA4D59AF163CD11A006E686E /* Alert65.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Alert65.xib; sourceTree = "<group>"; };
+		CA4D59B1163CD299006E686E /* Alert70.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Alert70.xib; sourceTree = "<group>"; };
+		CA4D59B3163CD371006E686E /* Alert71.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Alert71.xib; sourceTree = "<group>"; };
+		CA4D59B5163CD40A006E686E /* Alert72.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Alert72.xib; sourceTree = "<group>"; };
+		CA4D59B7163CD498006E686E /* Alert73.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Alert73.xib; sourceTree = "<group>"; };
+		CA4D59B9163CD50D006E686E /* Alert74.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Alert74.xib; sourceTree = "<group>"; };
+		CA4D59BB163CD596006E686E /* Alert75.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Alert75.xib; sourceTree = "<group>"; };
+		CA4D59BD163CD617006E686E /* Alert76.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Alert76.xib; sourceTree = "<group>"; };
+		CA4D59BF163CD6B1006E686E /* Alert77.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Alert77.xib; sourceTree = "<group>"; };
+		CA4D59C1163CD733006E686E /* Alert78.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Alert78.xib; sourceTree = "<group>"; };
+		CA4D59C3163CD958006E686E /* Preferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+		CA4D59C9163DE9ED006E686E /* ICPreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICPreferencesController.h; sourceTree = "<group>"; };
+		CA4D59CA163DE9ED006E686E /* ICPreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICPreferencesController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA1BE65816349342003AA829 /* IOKit.framework in Frameworks */,
 				CA1BE61316346DB9003AA829 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,6 +151,7 @@
 		CA1BE61116346DB9003AA829 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CA1BE65716349342003AA829 /* IOKit.framework */,
 				CA1BE61216346DB9003AA829 /* Cocoa.framework */,
 				CA1BE63016346DBA003AA829 /* SenTestingKit.framework */,
 				CA1BE61416346DB9003AA829 /* Other Frameworks */,
@@ -116,7 +174,19 @@
 			children = (
 				CA1BE62416346DB9003AA829 /* ICAppDelegate.h */,
 				CA1BE62516346DB9003AA829 /* ICAppDelegate.m */,
+				CA1BE64616346DEA003AA829 /* ICMenuLoader.h */,
+				CA1BE64716346DEA003AA829 /* ICMenuLoader.m */,
+				CA1BE64D16349192003AA829 /* ICBluetoothConnector.h */,
+				CA1BE64E16349192003AA829 /* ICBluetoothConnector.m */,
+				CA4D59C9163DE9ED006E686E /* ICPreferencesController.h */,
+				CA4D59CA163DE9ED006E686E /* ICPreferencesController.m */,
+				CA1BE65B16360854003AA829 /* ICMonitor.h */,
+				CA1BE65C16360854003AA829 /* ICMonitor.m */,
+				CA1BE6591634E49D003AA829 /* Log.xib */,
+				CA4D59C3163CD958006E686E /* Preferences.xib */,
 				CA1BE62716346DBA003AA829 /* MainMenu.xib */,
+				CA4D59AA163CCE97006E686E /* Connections */,
+				CA4D59A7163CCC6C006E686E /* Alerts */,
 				CA1BE61916346DB9003AA829 /* Supporting Files */,
 			);
 			path = iChair;
@@ -125,6 +195,9 @@
 		CA1BE61916346DB9003AA829 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CA1BE650163492C2003AA829 /* Source */,
+				CA1BE64916346E0C003AA829 /* chair-alt.png */,
+				CA1BE64A16346E0C003AA829 /* chair.png */,
 				CA1BE61A16346DB9003AA829 /* iChair-Info.plist */,
 				CA1BE61B16346DB9003AA829 /* InfoPlist.strings */,
 				CA1BE61E16346DB9003AA829 /* main.m */,
@@ -151,6 +224,45 @@
 				CA1BE63816346DBA003AA829 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA1BE650163492C2003AA829 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CA1BE651163492C2003AA829 /* ORSSerialPort.h */,
+				CA1BE652163492C2003AA829 /* ORSSerialPort.m */,
+				CA1BE653163492C2003AA829 /* ORSSerialPortManager.h */,
+				CA1BE654163492C2003AA829 /* ORSSerialPortManager.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		CA4D59A7163CCC6C006E686E /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				CA4D59A4163CB092006E686E /* Alert63.xib */,
+				CA4D59A8163CCCF4006E686E /* Alert64.xib */,
+				CA4D59AF163CD11A006E686E /* Alert65.xib */,
+				CA4D59B1163CD299006E686E /* Alert70.xib */,
+				CA4D59B3163CD371006E686E /* Alert71.xib */,
+				CA4D59B5163CD40A006E686E /* Alert72.xib */,
+				CA4D59B7163CD498006E686E /* Alert73.xib */,
+				CA4D59B9163CD50D006E686E /* Alert74.xib */,
+				CA4D59BB163CD596006E686E /* Alert75.xib */,
+				CA4D59BD163CD617006E686E /* Alert76.xib */,
+				CA4D59BF163CD6B1006E686E /* Alert77.xib */,
+				CA4D59C1163CD733006E686E /* Alert78.xib */,
+			);
+			name = Alerts;
+			sourceTree = "<group>";
+		};
+		CA4D59AA163CCE97006E686E /* Connections */ = {
+			isa = PBXGroup;
+			children = (
+				CA4D59AB163CCEB3006E686E /* ConnectionFailed.xib */,
+				CA4D59AD163CCEE9006E686E /* ConnectionSuccessful.xib */,
+			);
+			name = Connections;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +340,24 @@
 				CA1BE61D16346DB9003AA829 /* InfoPlist.strings in Resources */,
 				CA1BE62316346DB9003AA829 /* Credits.rtf in Resources */,
 				CA1BE62916346DBA003AA829 /* MainMenu.xib in Resources */,
+				CA1BE64B16346E0C003AA829 /* chair-alt.png in Resources */,
+				CA1BE64C16346E0C003AA829 /* chair.png in Resources */,
+				CA1BE65A1634E49D003AA829 /* Log.xib in Resources */,
+				CA4D59A5163CB092006E686E /* Alert63.xib in Resources */,
+				CA4D59A9163CCCF4006E686E /* Alert64.xib in Resources */,
+				CA4D59AC163CCEB3006E686E /* ConnectionFailed.xib in Resources */,
+				CA4D59AE163CCEE9006E686E /* ConnectionSuccessful.xib in Resources */,
+				CA4D59B0163CD11A006E686E /* Alert65.xib in Resources */,
+				CA4D59B2163CD299006E686E /* Alert70.xib in Resources */,
+				CA4D59B4163CD371006E686E /* Alert71.xib in Resources */,
+				CA4D59B6163CD40A006E686E /* Alert72.xib in Resources */,
+				CA4D59B8163CD498006E686E /* Alert73.xib in Resources */,
+				CA4D59BA163CD50D006E686E /* Alert74.xib in Resources */,
+				CA4D59BC163CD596006E686E /* Alert75.xib in Resources */,
+				CA4D59BE163CD617006E686E /* Alert76.xib in Resources */,
+				CA4D59C0163CD6B2006E686E /* Alert77.xib in Resources */,
+				CA4D59C2163CD733006E686E /* Alert78.xib in Resources */,
+				CA4D59C4163CD958006E686E /* Preferences.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +394,12 @@
 			files = (
 				CA1BE61F16346DB9003AA829 /* main.m in Sources */,
 				CA1BE62616346DB9003AA829 /* ICAppDelegate.m in Sources */,
+				CA1BE64816346DEA003AA829 /* ICMenuLoader.m in Sources */,
+				CA1BE64F16349192003AA829 /* ICBluetoothConnector.m in Sources */,
+				CA1BE655163492C2003AA829 /* ORSSerialPort.m in Sources */,
+				CA1BE656163492C2003AA829 /* ORSSerialPortManager.m in Sources */,
+				CA1BE65D16360854003AA829 /* ICMonitor.m in Sources */,
+				CA4D59CB163DE9ED006E686E /* ICPreferencesController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +583,7 @@
 				CA1BE64216346DBA003AA829 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA1BE64316346DBA003AA829 /* Build configuration list for PBXNativeTarget "iChairTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +592,7 @@
 				CA1BE64516346DBA003AA829 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
